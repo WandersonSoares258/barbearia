@@ -34,6 +34,15 @@ nav a {
     justify-content: center;
 }
 
+/* Estilos para as imagens */
+.cliente1 {
+    max-width: 100%; /* Torna as imagens responsivas, ajustando sua largura conforme necessário */
+    height: auto; /* Garante que a altura seja ajustada automaticamente para manter a proporção original */
+    display: block; /* Remove espaços indesejados abaixo das imagens quando são exibidas como blocos inline */
+    margin: 0 auto; /* Centraliza as imagens dentro de seus contêineres pai */
+    margin-bottom: 20px; /* Adiciona espaço abaixo de cada imagem */
+}
+
 
 section {
     padding: 20px;
